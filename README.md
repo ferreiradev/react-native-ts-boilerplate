@@ -58,8 +58,8 @@ $ react-native run-ios
 
 ## Features
 
-- [ ] Create a readme files - Readme, Changelog and License (WIP)
-- [ ] Configure ESLint, Prettier, Editorconfig and VSCode Settings
+- [x] Create a readme files - Readme, Changelog and License (WIP)
+- [x] Configure ESLint, Prettier, Editorconfig and VSCode Settings
 - [ ] Configure Styled Components using Theme
 - [ ] Create a Input Styled
 - [ ] Create a Button Styled
