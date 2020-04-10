@@ -56,9 +56,20 @@ $ react-native run-ios
 * 0.0.1 - 2020-04-10
     * Work in progress
 
-## Key Features
+## Features
 
-## Next Features
+- [ ] Create a readme files - Readme, Changelog and License (WIP)
+- [ ] Configure ESLint, Prettier, Editorconfig and VSCode Settings
+- [ ] Configure Styled Components using Theme
+- [ ] Create a Input Styled
+- [ ] Create a Button Styled
+- [ ] Create a List of Tasks
+- [ ] Configure Redux, Redux Saga and Redux Persist
+- [ ] Working the flow of the whole list with redux
+
+## Possible Features
+- [ ] Light and Dark Theme
+- [ ] Integration with Design Token
 
 ## Meta
 
