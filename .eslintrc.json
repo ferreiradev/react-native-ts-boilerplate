@@ -9,6 +9,15 @@
       {
         "extensions": [".jsx", ".tsx"]
       }
+    ],
+    "import/extensions": [
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
     ]
   }
 }

@@ -62,7 +62,7 @@ $ react-native run-ios
 
 - [x] Create a readme files - Readme, Changelog and License
 - [x] Configure ESLint, Prettier, Editorconfig and VSCode Settings
-- [ ] Downloading and configuring custom fonts
+- [x] Downloading and configuring custom fonts
 - [ ] Configure Styled Components using Theme
 - [ ] Create a Typography
 - [ ] Configure a Storybook
