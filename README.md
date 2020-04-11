@@ -1,4 +1,5 @@
 # React Native Typescript Boilerplate
+
 > My personal boilerplate to be the base of the projects that I am involved using all the previous experiences
 
 React Native brings [**React**'s][r] declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform.
@@ -37,6 +38,7 @@ $ cd react-native-ts-boilerplate
 # Install dependencies
 $ yarn
 ```
+
 Run Android:
 
 ```bash
@@ -53,21 +55,26 @@ $ react-native run-ios
 
 ## Release History
 
-* 0.0.1 - 2020-04-10
-    * Work in progress
+- 0.0.1 - 2020-04-10
+  - Work in progress
 
 ## Features
 
-- [x] Create a readme files - Readme, Changelog and License (WIP)
+- [x] Create a readme files - Readme, Changelog and License
 - [x] Configure ESLint, Prettier, Editorconfig and VSCode Settings
+- [ ] Downloading and configuring custom fonts
 - [ ] Configure Styled Components using Theme
+- [ ] Create a Typography
+- [ ] Configure a Storybook
 - [ ] Create a Input Styled
 - [ ] Create a Button Styled
+- [ ] Create a Form for add task using Formik and Yup
 - [ ] Create a List of Tasks
 - [ ] Configure Redux, Redux Saga and Redux Persist
 - [ ] Working the flow of the whole list with redux
 
 ## Possible Features
+
 - [ ] Light and Dark Theme
 - [ ] Integration with Design Token
 
@@ -75,7 +82,7 @@ $ react-native run-ios
 
 Rafael Ferreira – [@RafaFerreiradDev](https://twitter.com/rafaferreiradev) – ferreiradev3011@gmail.com
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See `LICENSE` for more information.
 
 [https://github.com/ferreiradev/react-native-ts-boilerplate/LICENSE.MD](https://github.com/ferreiradev/react-native-ts-boilerplate/LICENSE.MD)
 
@@ -88,6 +95,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
+
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/datadog-metrics
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
