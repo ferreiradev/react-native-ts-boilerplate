@@ -55,6 +55,8 @@ $ react-native run-ios
 
 ## Release History
 
+- 0.1.0 - 2020-04-12
+  - Create md files, init styled components with theme and create component Typography with examples
 - 0.0.1 - 2020-04-10
   - Work in progress
 
