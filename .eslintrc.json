@@ -9,6 +9,8 @@
       {
         "extensions": [".jsx", ".tsx"]
       }
-    ]
+    ],
+    "import/extensions": 0,
+    "@typescript-eslint/no-unused-vars": [2, { "args": "none" }]
   }
 }
