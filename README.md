@@ -67,9 +67,11 @@ $ react-native run-ios
 - [x] Downloading and configuring custom fonts
 - [ ] Configure Styled Components using Theme (WIP)
 - [x] Create a Typography
-- [ ] Configure a Storybook
+- [x] Configure a Storybook
+- [ ] Installing babel-module-resolver to create aliases improving file calling in main folders
 - [ ] Create a Input Styled
 - [ ] Create a Button Styled
+- [ ] Configure React Navigation and create predicted screens
 - [ ] Create a Form for add task using Formik and Yup
 - [ ] Create a List of Tasks
 - [ ] Configure Redux, Redux Saga and Redux Persist
