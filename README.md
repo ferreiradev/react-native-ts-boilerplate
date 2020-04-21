@@ -55,10 +55,14 @@ $ react-native run-ios
 
 ## Release History
 
+- 0.2.0 - 2020-04-21
+  - Create and configuring storybook
 - 0.1.0 - 2020-04-12
   - Create md files, init styled components with theme and create component Typography with examples
 - 0.0.1 - 2020-04-10
   - Work in progress
+
+Here is a summary of changelog.md, so for more details read it
 
 ## Features
 
