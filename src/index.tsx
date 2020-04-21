@@ -1,15 +1,23 @@
-import React from 'react';
-import { ThemeProvider } from 'styled-components';
+import React, { useEffect, useCallback, useState } from 'react';
 
-import theme from './theme';
+import Storybook from '../storybook';
+import App from './App';
 
-import { Typography } from './components';
+export default () => {
+  const [storybookActive, setStorybookActive] = useState(false);
+  const toggleStorybook = useCallback(
+    () => setStorybookActive((active) => !active),
+    [],
+  );
 
-export default () => (
-  <ThemeProvider theme={theme}>
-    <Typography variant="headingH1">headingH1</Typography>
-    <Typography variant="headingH1External">headingH1External</Typography>
-    <Typography fontFamily="Merriweather" fontSize={30} fontWeight="bold">Generic With Bold</Typography>
-    <Typography fontFamily="Merriweather" fontSize={20}>Generic Without Bold</Typography>
-  </ThemeProvider>
-);
+  useEffect(() => {
+    // eslint-disable-next-line no-undef
+    if (__DEV__) {
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      const DevMenu = require('react-native-dev-menu');
+      DevMenu.addItem('Toggle Storybook', toggleStorybook);
+    }
+  }, [toggleStorybook]);
+
+  return storybookActive ? <Storybook /> : <App />;
+};
